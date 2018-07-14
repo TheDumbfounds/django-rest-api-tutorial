@@ -1,0 +1,13 @@
+{% extends 'snippets/base.html' %}
+
+{% block title %}Snippet Detail{% endblock title %}
+
+{% block content %}
+
+<h1>{{ snippet.title }}</h1>
+
+<pre>
+  {{ snippet.body_preview }}
+</pre>
+
+{% endblock content %}
